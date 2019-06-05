@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class DocumentController extends Controller
 {
-  public function view($id)
+      public function view($id)
       {
         $document = Upload::find($id);
 
